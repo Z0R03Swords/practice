@@ -22,7 +22,10 @@ case 1:
 int sum = add(a,b);
 System.out.println(sum); 
 break;
-
+case 2:
+int multi = mul(a,b);
+System.out.println(multi);
+break;
 default:
 
 System.out.println("enter the valid choice");
@@ -37,6 +40,10 @@ System.out.println("enter the valid choice");
 
 public static int add(int a, int b){
 return a+b;
+}
+
+public static int mul(int a, int b){
+return a*b;
 }
 
 
