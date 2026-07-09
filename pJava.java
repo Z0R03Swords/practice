@@ -28,6 +28,11 @@ int sub = sub(a,b);
 System.out.println(sub);
 break;
 
+case 3:
+int multi = mul(a,b);
+System.out.println(multi);
+break;
+
 default:
 
 System.out.println("enter the valid choice");
@@ -46,6 +51,9 @@ return a+b;
 
 public statuc int sub(int a, int b){
 return a-b;
+}
+public static int mul(int a, int b){
+return a*b;
 
 }
 
