@@ -23,6 +23,11 @@ int sum = add(a,b);
 System.out.println(sum); 
 break;
 
+case 2:
+int sub = sub(a,b);
+System.out.println(sub);
+break;
+
 default:
 
 System.out.println("enter the valid choice");
@@ -37,6 +42,11 @@ System.out.println("enter the valid choice");
 
 public static int add(int a, int b){
 return a+b;
+}
+
+public statuc int sub(int a, int b){
+return a-b;
+
 }
 
 
